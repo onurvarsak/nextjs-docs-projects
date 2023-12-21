@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "install-dev": "rm -rf ./node_modules .next && npm install && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
