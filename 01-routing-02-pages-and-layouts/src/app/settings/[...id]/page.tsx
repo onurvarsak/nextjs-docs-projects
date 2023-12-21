@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       Settings Page
-      <Link href={"/"}>Back</Link>
+      <Link href={"/settings"}>Back</Link>
     </div>
   );
 }
